@@ -12,7 +12,7 @@ const bt = require('./bt')
 //   console.log(root.val)
 // }
 
-//非递归版
+//非递归版  (4526731)
 
 const postorder = (root) => {
   if(!root) return
