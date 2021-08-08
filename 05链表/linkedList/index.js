@@ -7,19 +7,20 @@
  b.next = c
  c.next = d
 
- //遍历链表
- let p = a 
- while(p){
-   console.log(p.val)
-   p = p.next
- }
+ console.log('a',a)
+//  //遍历链表
+//  let p = a 
+//  while(p){
+//    console.log(p.val)
+//    p = p.next
+//  }
 
- //插入
- const e = {val:'e'}
- c.next = e
- e.next = d
+//  //插入
+//  const e = {val:'e'}
+//  c.next = e
+//  e.next = d
 
- //删除
- c.next = d
+//  //删除
+//  c.next = d
 
  
